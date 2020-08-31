@@ -1,0 +1,184 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	min-height: 100vh;
+	font-family: 'Airal', sans-serif;
+}
+
+.root-wrapper{
+	margin: 18px;
+}
+
+.root{
+	position: relative;
+	width: 1020px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: #f6f5f3;
+}
+
+.logo{
+	position: absolute;
+	right: 0;
+	margin-right: 75px;
+}
+
+header{
+	height: 150px;
+}
+
+.gallery{
+	display: flex;
+	margin-bottom: 60px;
+}
+
+.gallery-arrows{
+	width: 175px;
+	display: flex;
+	align-items: center;
+}
+
+.arrow-bottom{
+	position: relative;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #ffdb4a;
+	box-shadow: 1px 1px 2px #ff5a00;
+	margin: 0 auto;
+}
+
+.arrow-bottom img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.arrow-bottom:hover{
+	cursor: pointer;
+}
+
+.gallery-content{
+	flex: 1;
+}
+
+.gallery-text{
+	font-size: 32px;
+}
+
+.gallery-content img{
+	margin-top: 40px;
+	width: 100%;
+}
+
+.video{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	margin: 0 170px 60px;
+	box-sizing: border-box;
+}
+
+.video img{
+	width: 100%;
+}
+
+.video-title{
+	position: absolute;
+	background: rgba(0,0,0,.5);
+	color: #fff;
+	font-size: 28px;
+	width: 100%;
+	padding: 5px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.video-play{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	background: #ffdb4a;
+	box-shadow: 1px 1px 2px #ff5a00;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.video-play img{
+	margin-left: 12px;
+	width: 35%;
+}
+
+.video-play:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.ways{
+	display: flex;
+	padding: 0 15px 0 40px;
+	margin-bottom: 70px;
+}
+
+.title{
+	margin: 0 0 40px;
+	font-size: 47px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.ways-item{
+	width: 25%;
+	margin-right: 15px;
+}
+
+.ways-item:last-child{
+	margin-right: 0;
+}
+
+.ways-item-img{
+	width: 100%;
+	height: 90px;
+}
+
+.ways-item-name{
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.subtitle{
+	font-size: 42px;
+	font-weight: normal;
+	text-align: center;
+	margin: 0 0 60px 0;
+}
+
+.button{
+	width: 320px;
+	height: 70px;
+	background: #ffdf25;
+	color: rgba(0,0,0,.72);
+	font-size: 36px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 10px;
+	margin: 0 auto 70px;
+}
+
+.button:hover{
+	cursor: pointer;
+	background: linear-gradient(#ffe86b, #ffdf25);
+}
